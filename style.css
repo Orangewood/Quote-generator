@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background: url(http://www.thebridgelive.org/wp-content/uploads/2014/12/Chalkboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+@font-face {
+font-family: 'eraser';
+  src: url(fonts/Eraser Medium);
+}
+
+.text-primary {
+ font-family: 'eraser';
+   text-decoration: underline; 
+  color: #F5F5F5;
+ 
+  }
+
+#box{
+padding: 150px;
+  position: relative;
+}
+
+#quote {
+  font-family: 'eraser'; 
+  text-align: center;
+  color: white;
+ 
+  }
+
+#author {
+  text-align: center;
+  font-family: 'Great Vibes';
+  font-size: 20px;
+  color: #F5F5F5;
+  padding: 50px;
+  }
+
+#buttons {
+position: relative;
+  bottom: 80px;
+  padding: 75px;
+  margin: 0 auto;
+}
